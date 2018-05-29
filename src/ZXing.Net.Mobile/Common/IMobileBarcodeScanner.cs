@@ -10,6 +10,10 @@ namespace ZXing.Mobile
 		void StartScanning (Action<ZXing.Result> callback);
 		void StopScanning();
 
+
+        /// <summary>
+        /// 
+        /// </summary>
 		void PauseAnalysis();
 		void ResumeAnalysis();
 
